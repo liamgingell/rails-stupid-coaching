@@ -1,8 +1,12 @@
 <h1>You asked</h1>
 <p><%= @question %></p>
 
-
+<div class="heading-container">
 <h1>The coach says...</h1>
+</div>
+
 <p><%= @answer %></p>
 
+<div class="button-container">
 <%= link_to "Ask another question", ask_path, class:"btn btn-primary" %>
+</div>
